@@ -2,7 +2,8 @@
  * File:   main.cpp
  * Author: Albert Galvan
  * Created on 9/26/16 10:51
- * Purpose:  Solve Problem 24 of Gaddis Chapter 3 8th Edition
+ * Purpose:  Solve Problem 24 of Gaddis Chapter 3 8th Edition, telling a story 
+ * with inputed information
  */
 
 //System Libraries Here
