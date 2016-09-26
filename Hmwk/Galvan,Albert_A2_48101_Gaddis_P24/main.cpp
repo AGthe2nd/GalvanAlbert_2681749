@@ -19,8 +19,8 @@ using namespace std;
 //Program Execution Begins Here
 int main(int argc, char** argv) {
     //Declare all Variables Here
-    string name, ctynam, cllgnam, profnam, animnam, petnam; 
-    int age;
+    string name, ctynam, cllgnam, profnam, animnam, petnam, age;                //Names for user name, city name, college name, profession name, 
+                                                                                //animal name, pet name and age.
     
     
     //Input or initialize values Here
@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
     cout<<"Hello "<<name<<"! \n";
     cout<<"What about your age? \n";
     cin>>age;
-    cout<<"Now the name of a city"<<endl;
+    cout<<"Now the name of a city! \n";
     cin>>ctynam;
     cout<<"Maybe the name of a college? \n";
     cin>>cllgnam;
@@ -41,10 +41,17 @@ int main(int argc, char** argv) {
     cin>>animnam;
     cout<<"Why don't you give the animal a name? \n";
     cin>>petnam;
-   
+    cout<<endl;
+    cout<<endl;
+    cout<<endl;
     //Process/Calculations Here
     
-    //Output Located Here
+    //Story Processes here.
+    cout<<"There once was a person named "<<name<<" who lived in "<<ctynam<<". \n";
+    cout<<"At the age of "<<age<<", "<<name<<" went to college at "<<cllgnam<<". \n";
+    cout<<name<<" graduated and went to work as a "<<profnam<<". \n";
+    cout<<"Then, "<<name<<" adopted a "<<animnam<<" named "<<petnam<<". \n";
+    cout<<"They both lived happily ever after!!! \n";                           //I mean, we could've had a better story right?
     
 
     //Exit
