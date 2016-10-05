@@ -41,16 +41,25 @@ int main(int argc, char** argv) {
     //Process/Calculations Here
     
     switch(choinp){
-        case 4: choice ="4"; break;
-        case 3: choice ="3"; break;
-        case 2: choice ="2"; break;
-        case 1: choice ="1"; break;
+        case 4: choice ="Ok then, goodbye!"; break;
+        case 3: choice ="Area of Traingle"; 
+        break;
+        case 2: choice ="Area of a rectangle"; break;
+        case 1: choice ="Area of a circle"; break;
         default: choice ="Invalid choice";
     }
     
-    if      (choice ="4") cout<<"Ok then, goodbye!"<<endl;
-    else if (choice="Invalid choice") cout<<choice;
-
+    
+    cout<<choice<<endl;
+    
+        if (choice = "Area of a Traingle")
+            cin>>triabas>>triahei>>endl;
+            triarea=(triabas*triahei*.5);
+            cout<<triarea<<endl;
+        
+        
+        
+        
     //Exit
     return 0;
 }
