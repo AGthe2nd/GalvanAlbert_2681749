@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Albert Galvan
- * Created on Ocober 10, 2016 9:44 AM
+ * Created on October 10, 2016 9:44 AM
  * Purpose:  Menu without functions
  */
 
@@ -40,29 +40,29 @@ int main(int argc, char** argv) {
     //Input values
     switch(menuitm){
         case 1:{
-            cout<<"Inside Problem NASA Budget"<<endl;
-              float NasBdgt=19.3e10f;             //Reference above
-              float fedBdgt=3.99e12f;             //Reference above
-              float pNasSpd;                      //Percantage of NASA spending
-   
+                cout<<"Inside Problem NASA Budget"<<endl;
+                float NasBdgt=19.3e10f;             //Reference above
+                float fedBdgt=3.99e12f;             //Reference above
+                float pNasSpd;                      //Percantage of NASA spending
+
     
-    //Input or initialize values Here
-    
-    pNasSpd=NasBdgt/fedBdgt*PERCENT;    //Calculation of budget
-            
-   
-    //Process/Calculations Here
-    pNasSpd=NasBdgt/fedBdgt*PERCENT;
-            
-     //Round to 2 Decimal Places
-    int round=pNasSpd*100+0.5f;         //Shifts by 2 *100 then rounds to 0.5
-    pNasSpd= round/100.0f;              //Int truncated then shift back 2 decimals 
-    
-    //Output Located Here
-    cout<<endl<<"This program calcuates Nasa budget for 2016"<<endl;
-    cout<<"The NASA Budget for 2016     = $"<<NasBdgt<<endl;
-    cout<<"The Federal Budget for 2016  = $"<<fedBdgt<<endl;
-    cout<<"The Percentage spent on NASA = " <<pNasSpd<<"%"<<endl;
+                //Input or initialize values Here
+
+                pNasSpd=NasBdgt/fedBdgt*PERCENT;    //Calculation of budget
+
+
+                //Process/Calculations Here
+                pNasSpd=NasBdgt/fedBdgt*PERCENT;
+
+                 //Round to 2 Decimal Places
+                int round=pNasSpd*100+0.5f;         //Shifts by 2 *100 then rounds to 0.5
+                pNasSpd= round/100.0f;              //Int truncated then shift back 2 decimals 
+
+                //Output Located Here
+                cout<<endl<<"This program calcuates Nasa budget for 2016"<<endl;
+                cout<<"The NASA Budget for 2016     = $"<<NasBdgt<<endl;
+                cout<<"The Federal Budget for 2016  = $"<<fedBdgt<<endl;
+                cout<<"The Percentage spent on NASA = " <<pNasSpd<<"%"<<endl;
 
             break;
         }
@@ -130,7 +130,8 @@ int main(int argc, char** argv) {
             break;
             }//End Case
         }//End the Switch/Case
-    }while(menuitm>0&&menuitm<=10);//Ends the Do-While
+    }while(menuitm>0&&menuitm<=10);
+    cout<<"Invalid Input"<<endl;            //Ends the Do-While
     
     
     //Process/Calculations Here

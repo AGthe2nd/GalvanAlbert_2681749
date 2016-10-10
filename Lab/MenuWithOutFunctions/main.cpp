@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Albert Galvan
- * Created on Ocober 10, 2016 9:31 AM
+ * Created on October 10, 2016 9:31 AM
  * Purpose:  Menu without functions
  */
 
