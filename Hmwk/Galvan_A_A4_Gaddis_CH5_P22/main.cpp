@@ -23,10 +23,11 @@ int main(int argc, char** argv) {
     char xchar;
 
     //Prompt user for number input
-    cout<<"Type a number between 1-15 then a character and press enter."<<endl;
+    cout<<"Type a number between 1-7 then a character and press enter."<<endl;
     cin>>inpnum>>xchar;cout<<endl;
     
     //Input values
+    if(inpnum>=1&&inpnum<=7)
     switch(inpnum){
         
         case 1:{cout<<xchar<<endl;
@@ -54,7 +55,25 @@ int main(int argc, char** argv) {
                 cout<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
                 break;
         }
-    }
+        case 6:{cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                break;
+        }
+        case 7:{cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                cout<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<xchar<<endl;
+                break;
+        }
+    }else
+        cout<<"Invalid command"<<endl;
     
     //Process/Calculations Here
     
