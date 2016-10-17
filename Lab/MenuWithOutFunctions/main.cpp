@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Albert Galvan
- * Created on October 10, 2016 9:31 AM
- * Purpose:  Menu without functions
+ * Created on October 17, 2016 8:30 AM
+ * Purpose:  Menu with functions
  */
 
 //System Libraries Here
@@ -15,6 +15,16 @@ using namespace std;
 //Like PI, e, Gravity, or conversions
 
 //Function Prototypes Here
+void problem1();
+void problem2();
+void problem3();
+void problem4();
+void problem5();
+void problem6();
+void problem7();
+void problem8();
+void problem9();
+void problem10();
 
 //Program Execution Begins Here
 int main(int argc, char** argv) {
@@ -39,78 +49,19 @@ int main(int argc, char** argv) {
     
     //Input values
     switch(menuitm){
-        case 1:{
-            cout<<"Inside Problem A"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 2:{
-            cout<<"Inside Problem B"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 3:{
-            cout<<"Inside Problem C"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 4:{
-            cout<<"Inside Problem D"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 5:{
-            cout<<"Inside Problem E"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 6:{
-            cout<<"Inside Problem F"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 7:{
-            cout<<"Inside Problem G"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 8:{
-            cout<<"Inside Problem H"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 9:{
-            cout<<"Inside Problem I"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
-        }
-        case 10:{
-            cout<<"Inside Problem J"<<endl;
-            //Input Values
-            //Process Values -> Map inputs to output
-            //Display Output
-            break;
+        case 1:problem1();break;
+        case 2:problem2();break;
+        case 3:problem3();break;
+        case 4:problem4();break;
+        case 5:problem5();break;
+        case 6:problem6();break;
+        case 7:problem7();break;
+        case 8:problem8();break;
+        case 9:problem9();break;
+        case 10:problem10();
             }//End Case
         }//End the Switch/Case
-    }while(menuitm>0&&menuitm<=10);//Ends the Do-While
+    while(menuitm>0&&menuitm<=10);//Ends the Do-While
     
     
     //Process/Calculations Here
@@ -121,3 +72,80 @@ int main(int argc, char** argv) {
     return 0;
 }
 
+//000000011111111112222222222333333333344444444445555555555666666666677777777778
+//345678901234567890123456789012345678901234567890123456789012345678901234567890
+//******************************** Problem 1 ***********************************
+//Purpose: Put functions purpose here!
+//Inputs:   Inputs to the function here  -> Description, Range, Units
+//Outputs:  Outputs to the function here -> Description, Range, Units
+//******************************************************************************
+
+void problem1(){
+cout<<"Inside Problem A"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem2(){
+cout<<"Inside Problem B"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem3(){
+cout<<"Inside Problem C"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem4(){
+cout<<"Inside Problem D"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem5(){
+cout<<"Inside Problem E"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem6(){
+cout<<"Inside Problem F"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem7(){
+cout<<"Inside Problem G"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem8(){
+cout<<"Inside Problem H"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem9(){
+cout<<"Inside Problem I"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
+
+void problem10(){
+cout<<"Inside Problem J"<<endl;
+//Input Values
+//Process Values -> Map inputs to output
+//Display Output
+}
